@@ -1,0 +1,85 @@
+# Site settings
+#baseurl = "http://northernlightsdatalab.com/"
+baseurl = "/"
+languageCode = "en-us"
+title = "Northern Lights Data Lab"
+theme = "hugo-smpl-theme"
+
+# Enter your tracking code to enable Google analytics
+googleAnalytics = "UA-XXXXXXXX-1"
+
+[params]
+  # You can use Markdown for urls [text](//domain.tld/source)
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons.
+
+  # To provide more meta data for search engines feel free to add a few information.
+  # This lines will be inserted as meta tags.
+  name = "Northern Lights Data Lab"
+  description = "Financial economics research and analysis"
+
+  # Background
+  [params.background]
+    image = "assets/img/bg.jpg"
+
+    # Enable and set background fade speed
+    [params.background.fade]
+      enable = true
+      speed = 500
+
+  # Logo section
+  [params.logo]
+    enable = false
+    image = "assets/img/logo.png"
+    alt = "Norther Lights Data Lab"
+    width = "100"
+
+  # Header section
+  [params.header]
+    enable = true
+    title = "Northern Lights<br>DATA lab"
+
+  # Quote section
+  [params.quote]
+    enable = true
+    text = "Financial and economic data science."
+
+  # Social icons section
+  [params.social_icons]
+    enable = true
+
+  #[[params.social]]
+  #  title = "Dribbble"
+  #  icon = "fa-dribbble"
+  #  link = "http://dribbble.com/CarlosAlvarez"
+
+  #[[params.social]]
+  #  title = "Twitter"
+  #  icon = "fa-twitter"
+  #  link = "http://twitter.com/BlackTie_co"
+
+  #[[params.social]]
+  #  title = "Premium Themes"
+  #  icon = "fa-briefcase"
+  #  link = "https://wrapbootstrap.com/user/Basicoh"
+
+  #[[params.social]]
+  #  title = "Free Themes"
+  #  icon = "fa-heart"
+  #  link = "http://BlackTie.co"
+
+  #[[params.social]]
+  #  title = "Blog"
+  #  icon = "fa-comment"
+  #  link = "/blog"
+
+  [[params.social]]
+    title = "Email Me!"
+    icon = "fa-envelope"
+    link = "mailto:andrew@andrewdyck.com"
+
+  #[[params.social]]
+  #  title = "Newsletter"
+  #  icon = "fa-coffee"
+  #  link = "http://eepurl.com/Eck_T"
