@@ -43,7 +43,7 @@ googleAnalytics = "UA-XXXXXXXX-1"
   # Quote section
   [params.quote]
     enable = true
-    text = "Financial and economic data science."
+    text = "Data science for financial economics."
 
   # Social icons section
   [params.social_icons]
